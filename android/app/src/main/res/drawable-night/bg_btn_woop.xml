@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- El unico gradiente de la app: el woop combina los dos acentos a proposito. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient android:startColor="#5B8DEF" android:endColor="#EF5B5B" android:angle="315" />
+    <corners android:radius="10dp" />
+</shape>

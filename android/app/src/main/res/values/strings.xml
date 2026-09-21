@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Teamo</string>
+
+    <string name="channel_controls">Botones en la pantalla de bloqueo</string>
+    <string name="channel_controls_desc">La notificacion fija con los botones. No suena.</string>
+    <string name="channel_status">Avisos de nivel</string>
+    <string name="channel_status_desc">Cuando tu pareja avisa que tan ocupada esta.</string>
+    <string name="channel_woop">Woop</string>
+    <string name="channel_woop_desc">El toque de carino. Suena distinto.</string>
+
+    <string name="notif_controls_title">Teamo</string>
+    <string name="sent_level">Enviado: nivel %1$d</string>
+    <string name="sent_woop">Woop enviado</string>
+    <string name="sent_missclick">Aviso cancelado</string>
+    <string name="sending">Enviando…</string>
+    <string name="send_failed">No se pudo enviar, reintentando…</string>
+</resources>

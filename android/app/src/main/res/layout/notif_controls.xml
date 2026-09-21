@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/controls_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/btn_1"
+        style="@style/NotifBtn"
+        android:background="@drawable/bg_btn_low"
+        android:contentDescription="Nivel 1, libre"
+        android:text="1" />
+    <TextView
+        android:id="@+id/btn_2"
+        style="@style/NotifBtn"
+        android:background="@drawable/bg_btn_low"
+        android:contentDescription="Nivel 2, algo ocupada"
+        android:text="2" />
+    <TextView
+        android:id="@+id/btn_3"
+        style="@style/NotifBtn"
+        android:background="@drawable/bg_btn_neutral"
+        android:contentDescription="Nivel 3, ocupada"
+        android:text="3" />
+    <TextView
+        android:id="@+id/btn_4"
+        style="@style/NotifBtn"
+        android:background="@drawable/bg_btn_high"
+        android:contentDescription="Nivel 4, muy ocupada"
+        android:text="4" />
+    <TextView
+        android:id="@+id/btn_5"
+        style="@style/NotifBtn"
+        android:background="@drawable/bg_btn_high"
+        android:contentDescription="Nivel 5, no puedo ahora"
+        android:text="5" />
+    <TextView
+        android:id="@+id/btn_miss"
+        style="@style/NotifBtn"
+        android:background="@drawable/bg_btn_neutral"
+        android:contentDescription="Fue sin querer"
+        android:text="✕" />
+    <TextView
+        android:id="@+id/btn_woop"
+        style="@style/NotifBtn"
+        android:background="@drawable/bg_btn_woop"
+        android:contentDescription="Mandar un woop"
+        android:text="♥" />
+</LinearLayout>

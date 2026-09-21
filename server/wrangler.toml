@@ -1,0 +1,28 @@
+name = "woop"
+main = "src/index.ts"
+compatibility_date = "2025-01-15"
+
+# La PWA del iPhone se sirve desde el mismo Worker: mismo origen, sin CORS.
+[assets]
+directory = "../web/dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+run_worker_first = ["/api/*"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "woop"
+database_id = "PENDIENTE_wrangler_d1_create"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "PENDIENTE_wrangler_kv_namespace_create"
+
+[vars]
+VAPID_SUBJECT = "mailto:arenasgarrocarlos@gmail.com"
+# VAPID_PUBLIC_KEY se rellena tras `npm run vapid`
+VAPID_PUBLIC_KEY = "BArelhRk6t1jhyvM0wA9QCULOEQ06UOhzoifFiZNU6XCbKxeyeQAF7T9E3ye4pWgTHflsbg5p_M-nPZi8QuH2GU"
+
+# Secretos (NO van aqui, se ponen con `wrangler secret put`):
+#   FIREBASE_SA_JSON   -> service account JSON de Firebase (una sola linea)
+#   VAPID_PRIVATE_KEY  -> clave privada base64url que imprime `npm run vapid`

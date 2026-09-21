@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Se activa solo cuando el sistema esta en modo oscuro (carpeta "night"). El resto
+     de la app usa @color/... sin saber cual de las dos versiones esta activa. -->
+<resources>
+    <color name="bg">#0A0A0B</color>
+    <color name="surface">#17171A</color>
+    <color name="surface2">#202024</color>
+    <color name="line">#2C2C30</color>
+    <color name="text">#F5F5F6</color>
+    <color name="muted">#8B8B90</color>
+    <!-- Mismos dos acentos que en modo claro, pero mas brillantes para que
+         contrasten bien sobre un fondo casi negro. -->
+    <color name="blue">#5B8DEF</color>
+    <color name="red">#EF5B5B</color>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#F5F5F6</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface2">#EEEEF1</color>
+    <color name="line">#E2E2E6</color>
+    <color name="text">#1C1C1E</color>
+    <color name="muted">#6E6E73</color>
+    <!-- Unicos dos acentos: mismo tono de saturacion/luminosidad, solo cambia
+         el matiz, para que combinen sin competir entre si. Un poco mas
+         profundos que en modo oscuro, para que contrasten bien sobre blanco. -->
+    <color name="blue">#2D80D2</color>
+    <color name="red">#D22D2D</color>
+</resources>

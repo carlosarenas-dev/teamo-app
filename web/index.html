@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+    <title>Teamo</title>
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icon-180.png" />
+    <!-- Sigue el modo claro/oscuro del sistema: cada navegador usa el que le toque. -->
+    <meta name="theme-color" content="#f5f5f6" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0a0a0b" media="(prefers-color-scheme: dark)" />
+    <!-- iOS sigue mirando estas dos para abrir a pantalla completa desde la pantalla de inicio.
+         "default" dibuja una barra de estado propia (no superpuesta al contenido), asi que se
+         ve bien tanto en claro como en oscuro sin tener que elegir un color fijo. -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Teamo" />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <main id="app"></main>
+    <script type="module" src="/src/app.ts"></script>
+  </body>
+</html>

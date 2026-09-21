@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- El nivel que esta puesto ahora mismo se rellena en azul, para verlo de un vistazo. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="#5B8DEF" />
+    <corners android:radius="10dp" />
+</shape>
