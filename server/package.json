@@ -8,10 +8,17 @@
     "deploy": "wrangler deploy",
     "db:local": "wrangler d1 execute woop --local --file=./schema.sql",
     "db:remote": "wrangler d1 execute woop --remote --file=./schema.sql",
-    "vapid": "node scripts/gen-vapid.mjs"
+    "vapid": "node scripts/gen-vapid.mjs",
+    "start:node": "tsx src/node/server.ts"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^5.20260921.1",
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
     "typescript": "^5.7.3",
     "wrangler": "^4.136.0"
   }
