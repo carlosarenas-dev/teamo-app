@@ -19,7 +19,7 @@ import { createMemoryKV } from './memory-kv';
 import { createStaticAssets } from './static-assets';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
-const repoRoot = path.resolve(here, '../../../..'); // server/src/node -> woop/
+const repoRoot = path.resolve(here, '../../..'); // server/src/node -> woop/
 
 const PORT = Number(process.env.PORT ?? 8787);
 const DB_PATH = process.env.DB_PATH ?? path.join(repoRoot, 'server', 'data', 'teamo.sqlite');
